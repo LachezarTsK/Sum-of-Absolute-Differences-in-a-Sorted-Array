@@ -4,7 +4,7 @@ public class Solution {
     public int[] getSumAbsoluteDifferences(int[] input) {
         final int totalElements = input.length;
 
-        //alternatively:  Arrays.stream(input).sum()
+        //alternatively: Arrays.stream(input).sum()
         int sumAllElements = 0;
         for (int value : input) {
             sumAllElements += value;
